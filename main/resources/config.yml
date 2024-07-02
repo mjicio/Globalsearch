@@ -1,0 +1,34 @@
+
+#    ███╗   ███╗     ██╗██╗ ██████╗██╗ ██████╗
+#    ████╗ ████║     ██║██║██╔════╝██║██╔═══██╗
+#    ██╔████╔██║     ██║██║██║     ██║██║   ██║
+#    ██║╚██╔╝██║██   ██║██║██║     ██║██║   ██║
+#    ██║ ╚═╝ ██║╚█████╔╝██║╚██████╗██║╚██████╔╝███████╗
+#    ╚═╝     ╚═╝ ╚════╝ ╚═╝ ╚═════╝╚═╝ ╚═════╝ ╚══════╝ © 2024
+
+
+#DATABASE LOGIN
+
+database:
+  host: localhost
+  port: 3306
+  database: minecraft
+  username: minecraft
+  password: password
+
+
+#MESSAGGES
+
+container-found: "&aOggetto trovato nei seguenti contenitori:"
+container-coordinates: "&6 | %coordinates%"
+container-not-found: "&cNessun container trovato con l'oggetto specificato."
+
+player-found: "&aOggetto trovato nell'inventario di: %player-found%"
+
+offline-player-not-found: "&cNessun giocatore offline con il corrispettivo item."
+offline-player-found: "&aOggetto trovato nell'invetario offline di %offline-player-found%"
+
+
+#ERRORS
+only-player: "&cQuesto comando può essere eseguito solo da un giocatore."
+item-in-hand: "&cDevi avere un oggetto con meta in mano per cercarlo."

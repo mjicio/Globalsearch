@@ -1,0 +1,8 @@
+name: GlobalSearch
+version: '${project.version}'
+main: it.mjicio.rareore.GlobalSearch
+api-version: '1.20'
+commands:
+  globalsearch:
+    description: GlobalSearch
+    aliases: gs
